@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-[#5050e6] text-white py-2 px-4 rounded inline-block mt-10 font-medium border 
+    border-[#5050e6] hover:bg-transparent hover:text-[#5050e6] transition duration-200;
+  }
+
+  .inputStyle {
+    @apply outline-[#5050e6] border-gray-400 border rounded-[5px] px-4 py-2 w-[100%];
+  }
+}
+@layer base {
+  body {
+    @apply bg-white text-[#1f2937] tracking-wide scrollbar scrollbar-thumb-[#5050e6] scrollbar-track-[#EFF1F5];
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl;
+  }
+
+  li {
+    @apply cursor-pointer;
+  }
+}
+
+@layer utilities {
+  .nav {
+    @apply relative text-gray-500 font-bold tracking-[3px];
+  }
+  .nav::after {
+    @apply content-[''] bg-[#5050e6] h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300;
+  }
+  .nav:hover::after {
+    @apply w-[100%];
+  }
+  .navactive::after {
+    @apply content-[''] bg-[#5050e6] h-[3px] w-[100%] left-0 -bottom-[5px] rounded-xl absolute;
+  }
+}
