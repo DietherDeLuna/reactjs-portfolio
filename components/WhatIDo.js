@@ -1,7 +1,7 @@
 import React from 'react'
 import Heading from './Heading'
 import { motion } from 'framer-motion'
-import { fadeIn } from '../pages/variants'
+import { fadeIn } from './Variants.js'
 
 import {RiLightbulbFlashLine} from 'react-icons/ri'
 
