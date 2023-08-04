@@ -3,7 +3,7 @@ import Heading from './Heading'
 import Button from "./Button"
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { fadeIn } from '../pages/variants'
+import { fadeIn } from './Variants.js'
 
 
 const Skills = () => {
