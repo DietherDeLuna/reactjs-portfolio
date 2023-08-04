@@ -8,7 +8,7 @@ import { BsGlobe, BsGlobe2 } from 'react-icons/bs'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { IoLocationOutline } from 'react-icons/io5'
 import { motion } from 'framer-motion'
-import { fadeIn } from '../pages/variants'
+import { fadeIn } from './Variants.js'
 
 
 const Contacts = () => {
