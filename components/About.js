@@ -12,7 +12,7 @@ import {IoLocationOutline} from 'react-icons/io5'
 import Button from "./Button"
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { fadeIn } from '../pages/variants'
+import { fadeIn } from './Variants.js'
 
 
 
