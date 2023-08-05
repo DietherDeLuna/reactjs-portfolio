@@ -12,7 +12,7 @@ import {IoLocationOutline} from 'react-icons/io5'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { fadeIn } from './Variants.js'
-import heroImage from '../public/images/D-1.jpg'
+import { heroImage } from '../public/images/D-1.jpg'
 
 
 
