@@ -10,7 +10,7 @@ const Pdf = () => {
     whileInView={'show'}
     viewport={{ once: true, amount: 0.7 }}
     className='flex items-center justify-center py-5 mb-8'>
-        <a className='btn' href="DeLuna.pdf" download="Diether De Luna">Download CV</a>
+        <a className='btn' href="DeLuna.pdf" download="Diether-D-DeLuna">Download CV</a>
     </motion.div>
   )
 }
