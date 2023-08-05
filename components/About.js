@@ -14,7 +14,7 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { fadeIn } from './Variants.js'
 
-import aboutImage from '../public/images/D-4.jpg'
+import { aboutImage } from '../public/images/D-4.jpg'
 
 
 
