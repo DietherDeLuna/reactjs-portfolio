@@ -4,12 +4,12 @@ import Button from "./Button"
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { fadeIn } from './Variants.js'
-import skill1 from '../public/images/react-.png'
-import skill2 from '../public/images/html5.png'
-import skill3 from '../public/images/js.png'
-import skill4 from '../public/images/php-.png'
-import skill5 from '../public/images/mysql-.png'
-import skill6 from '../public/images/cs.png'
+import { skill1 } from '../public/images/react-.png'
+import { skill2 } from '../public/images/html5.png'
+import { skill3 } from '../public/images/js.png'
+import { skill4 } from '../public/images/php-.png'
+import { skill5 } from '../public/images/mysql-.png'
+import { skill6 } from '../public/images/cs.png'
 
 
 
