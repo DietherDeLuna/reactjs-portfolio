@@ -4,9 +4,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { fadeIn } from './Variants.js'
-import project1 from '../public/images/pdao-web.jpg'
-import project2 from '../public/images/pdao-dashboard.jpg'
-import project3 from '../public/images/pos-web.jpg'
+import { project1 } from '../public/images/pdao-web.jpg'
+import { project2 } from '../public/images/pdao-dashboard.jpg'
+import { project3 } from '../public/images/pos-web.jpg'
 
 const Work = () => {
   return (
