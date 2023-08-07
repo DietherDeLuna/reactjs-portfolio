@@ -17,7 +17,7 @@ const Work = () => {
         variants={fadeIn('right', 0.5)}
         initial='hidden'
         whileInView={'show'}
-        viewport={{ once: false, amount: 0.7 }}>
+        viewport={{ once: true, amount: 0.7 }}>
             <Heading title="Projects"/>
         </motion.div>
 
@@ -104,7 +104,7 @@ const Work = () => {
             variants={fadeIn('up', 0.4)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: true, amount: 0.7 }}
             className='flex flex-col items-center justify-center mt-8 text-[15px] sm:text-[40px]'>
                 <p className='py-4 font-medium text-[#5050e6] uppercase'>Lets Build something New</p>
                 <p className='py-4 font-medium text-[#5050e6] uppercase'>Team with me</p>
