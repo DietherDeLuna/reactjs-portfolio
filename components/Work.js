@@ -46,7 +46,7 @@ const Work = () => {
             viewport={{ once: true, amount: 0.7 }}
             className='relative group'>
 
-                <Image className='' src={project1} alt='/' width='1300' height='50'/>
+                <Image className='' src={ project1 } alt='/' width='1300' height='50'/>
 
                 <div className='bg-black/60 absolute w-[100%] h-[100%] top-0 opacity-0 transition 
                 duration-500 group-hover:opacity-100 grid place-items-center text-white'>
@@ -68,7 +68,7 @@ const Work = () => {
                 viewport={{ once: true, amount: 0.7 }}
                 className='relative group'>
 
-                    <Image className='' src={project2} alt='/' width='1300' height='50'/>
+                    <Image className='' src={ project2 } alt='/' width='1300' height='50'/>
 
                     <div className='bg-black/60 absolute w-[100%] h-[100%] top-0 opacity-0 transition 
                     duration-500 group-hover:opacity-100 grid place-items-center text-white'>
@@ -88,7 +88,7 @@ const Work = () => {
                 viewport={{ once: true, amount: 0.7 }}
                 className='relative group'>
 
-                    <Image className='' src={project3} alt='/' width='1300' height='50'/>
+                    <Image className='' src={ project3 } alt='/' width='1300' height='50'/>
 
                     <div className='bg-black/60 absolute w-[100%] h-[100%] top-0 opacity-0 transition 
                     duration-500 group-hover:opacity-100 grid place-items-center text-white'>
