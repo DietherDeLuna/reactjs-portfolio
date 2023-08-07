@@ -16,7 +16,7 @@ const Contacts = () => {
     <section className='container mx-auto py-10 px-4'>
 
         <motion.div 
-        variants={fadeIn('down', 0.2)}
+        variants={fadeIn('up', 0.2)}
         initial='hidden'
         whileInView={'show'}
         viewport={{ once: true, amount: 0.7 }}
