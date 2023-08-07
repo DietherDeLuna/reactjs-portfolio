@@ -23,7 +23,7 @@ const About = () => {
     <section className='container mx-auto py-10 px-4'>
 
         <motion.div 
-        variants={fadeIn('down', 0.2)}
+        variants={fadeIn('up', 0.2)}
         initial='hidden'
         whileInView={'show'}
         viewport={{ once: true, amount: 0.7 }}
@@ -51,7 +51,7 @@ const About = () => {
             <div>
 
               <motion.div 
-              variants={fadeIn('left', 0.2)}
+              variants={fadeIn('up', 0.2)}
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: true, amount: 0.7 }}
@@ -64,7 +64,7 @@ const About = () => {
               </motion.div>
 
               <motion.div 
-              variants={fadeIn('left', 0.4)}
+              variants={fadeIn('up', 0.4)}
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: true, amount: 0.7 }}
@@ -75,17 +75,17 @@ const About = () => {
 
                   <div className='flex gap-4 items-center font-medium'>
                   <BsPerson className='text-[#5050e6] text-[15px] md:text-[22px]'/>
-                    Name
+                    Name:
                   </div>
 
                   <div className='flex gap-4 items-center font-medium'>
                   <AiOutlineGift className='text-[#5050e6] text-[15px] md:text-[22px]'/>
-                    Birthday
+                    Birthday:
                   </div>
 
                   <div className='flex gap-4 items-center font-medium'>
                   <FiBookOpen className='text-[#5050e6] text-[15px] md:text-[22px]'/>
-                    Study
+                    Study:
                   </div>
 
                   {/* <div className='flex gap-4 items-center font-medium'>
@@ -95,27 +95,16 @@ const About = () => {
 
                   <div className='flex gap-4 items-center font-medium'>
                   <TbPacman className='text-[#5050e6] text-[15px] md:text-[22px]'/>
-                    Interest
+                    Interest:
                   </div>
 
                   <div className='flex gap-4 items-center font-medium'>
                   <IoLocationOutline className='text-[#5050e6] text-[15px] md:text-[22px]'/>
-                    Location
+                    Location:
                   </div>
 
                 </div>
                 {/*End Description*/}
-
-                <div className='flex flex-col gap-6 text-gray-600'>
-
-                  <div>:</div>
-                  <div>:</div>
-                  <div>:</div>
-                  {/* <div>:</div> */}
-                  <div>:</div>
-                  <div>:</div>
-
-                </div>
 
                 <div className='flex flex-col gap-6 text-gray-600 text-[15px] md:text-[16px]'>
 
@@ -133,16 +122,16 @@ const About = () => {
               <div className='max-w-[800px]'>
 
                 <motion.h2 
-                variants={fadeIn('left', 0.6)}
+                variants={fadeIn('up', 0.6)}
                 initial='hidden'
                 whileInView={'show'}
                 viewport={{ once: true, amount: 0.7 }}
                 className='font-bold mt-8 mb-10 text-[#5050e6]'>
-                  Im Diether and a Web Developer
+                  I'm Diether and a Web Developer
                 </motion.h2>
 
                 <motion.div
-                variants={fadeIn('left', 0.8)}
+                variants={fadeIn('up', 0.8)}
                 initial='hidden'
                 whileInView={'show'}
                 viewport={{ once: true, amount: 0.7 }}>
