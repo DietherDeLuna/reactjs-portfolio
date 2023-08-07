@@ -125,7 +125,7 @@ const Navbar = ({toggleSidebar}) => {
         : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
           <div>
             <div className='flex w-full items-center justify-between'>
-              <Image src='/../public/images/db.png' width='87' height='35' alt=''/>
+              <Image src={ navLogo} width='87' height='35' alt=''/>
 
               <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                 <AiOutlineClose/>
