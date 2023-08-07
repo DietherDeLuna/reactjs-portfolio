@@ -31,7 +31,7 @@ const Hero = () => {
             variants={fadeIn('right', 0.5)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.7 }}>
+            viewport={{ once: true, amount: 0.7 }}>
                 <Image className='flex mx-auto rounded-[10px]' src={heroImage} alt='/' width='400' height='50'/>
             </motion.div>
             {/*End About Me Image*/}
@@ -47,13 +47,13 @@ const Hero = () => {
                             variants={fadeIn('up', 0.4)}
                             initial='hidden'
                             whileInView={'show'}
-                            viewport={{ once: false, amount: 0.7 }}
+                            viewport={{ once: true, amount: 0.7 }}
                             className='text-5xl text-[#5050e6]'>Lets create your vision together</motion.h1>
                             <motion.h4 
                             variants={fadeIn('up', 0.4)}
                             initial='hidden'
                             whileInView={'show'}
-                            viewport={{ once: false, amount: 0.7 }}
+                            viewport={{ once: true, amount: 0.7 }}
                             className='text-2xl mt-3 text-gray-500'>I am a Passionate
                                 <Typewritter
                                     options={{ 
@@ -76,7 +76,7 @@ const Hero = () => {
                             variants={fadeIn('up', 0.5)}
                             initial='hidden'
                             whileInView={'show'}
-                            viewport={{ once: false, amount: 0.7 }}
+                            viewport={{ once: true, amount: 0.7 }}
                             className='bg-[#5050e6] h-[2px] w-[100px]'>
                         </motion.div>
 
@@ -85,7 +85,7 @@ const Hero = () => {
                             variants={fadeIn('up', 0.5)}
                             initial='hidden'
                             whileInView={'show'}
-                            viewport={{ once: false, amount: 0.7 }}
+                            viewport={{ once: true, amount: 0.7 }}
                             className='text-gray-500'>
                                 My name is Diether De Luna. I am a web developer and Im dedicated to my work.
                                 Lets build and turn your vision into reality. 
@@ -97,7 +97,7 @@ const Hero = () => {
                             variants={fadeIn('up', 0.6)}
                             initial='hidden'
                             whileInView={'show'}
-                            viewport={{ once: false, amount: 0.7 }}>
+                            viewport={{ once: true, amount: 0.7 }}>
                                 <Link href='/about'>
                                     <button className='btn'>Know More</button>
                                 </Link>
