@@ -70,35 +70,35 @@ const About = () => {
               viewport={{ once: true, amount: 0.7 }}
               className='flex items-center justify-between w-[400px]'>
                 {/*Description*/}
-                <div className='flex flex-col gap-3'>
+                <div className='flex flex-col gap-2'>
                   
 
-                  <div className='flex gap-4 items-center font-medium'>
+                  <div className='flex gap-2 items-center font-medium'>
                   <BsPerson className='text-[#5050e6] text-[15px] md:text-[22px]'/>
                     Name:
                   </div>
 
-                  <div className='flex gap-4 items-center font-medium'>
+                  <div className='flex gap-2 items-center font-medium'>
                   <AiOutlineGift className='text-[#5050e6] text-[15px] md:text-[22px]'/>
                     Birthday:
                   </div>
 
-                  <div className='flex gap-4 items-center font-medium'>
+                  <div className='flex gap-2 items-center font-medium'>
                   <FiBookOpen className='text-[#5050e6] text-[15px] md:text-[22px]'/>
                     Study:
                   </div>
 
-                  {/* <div className='flex gap-4 items-center font-medium'>
+                  {/* <div className='flex gap-2 items-center font-medium'>
                   <BsGlobe2 className='text-[#5050e6] text-[22px]'/>
                     Website
                   </div> */}
 
-                  <div className='flex gap-4 items-center font-medium'>
+                  <div className='flex gap-2 items-center font-medium'>
                   <TbPacman className='text-[#5050e6] text-[15px] md:text-[22px]'/>
                     Interest:
                   </div>
 
-                  <div className='flex gap-4 items-center font-medium'>
+                  <div className='flex gap-2 items-center font-medium'>
                   <IoLocationOutline className='text-[#5050e6] text-[15px] md:text-[22px]'/>
                     Location:
                   </div>
@@ -106,7 +106,7 @@ const About = () => {
                 </div>
                 {/*End Description*/}
 
-                <div className='flex flex-col gap-6 text-gray-600 text-[11px] md:text-[16px]'>
+                <div className='flex flex-col gap-2 text-gray-600 text-[11px] md:text-[16px]'>
 
                   <div>Diether D. De Luna</div>
                   <div>Augsut 03, 2000</div>
