@@ -39,7 +39,7 @@ const Contacts = () => {
         <div className='grid grid-cols-1 md:grid-cols-1 gap-6'>
 
             <motion.div 
-            variants={fadeIn('down', 0.4)}
+            variants={fadeIn('up', 0.4)}
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.7 }}
