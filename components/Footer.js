@@ -11,7 +11,7 @@ const Footer = () => {
         
         <div className='text-center'>
 
-            <div className='bg-[#5050e6] h-[2px] w-[400px] sm:w-[500px] md:w-[600px] lg:w-[800px]
+            <div className='bg-[#5050e6] h-[2px] w-[200px] sm:w-[500px] md:w-[600px] lg:w-[800px]
              xl:w-[1000px] translate-y-1'></div>
              <div className='flex items-center justify-between mt-5'>
               <p className='font-medium text-gray-500 uppercase text-[10px] md:text-[20px]'>Follow Me!</p>
