@@ -5,6 +5,7 @@ import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { useRouter } from 'next/router'
+import navLogo from './images/db.png'
 
 const Navbar = ({toggleSidebar}) => {
 
@@ -45,7 +46,7 @@ const Navbar = ({toggleSidebar}) => {
 
         <div className='flex flex-col-1'>
           <Link href='/'>
-            <Image className='cursor-pointer' src='/../public/images/db.png' alt='/' width='80' height='50'/>
+            <Image className='cursor-pointer' src={ navLogo} alt='/' width='80' height='50'/>
           </Link>
           <div className='flex flex-col items-center justify-center'>
             <Link href='/'>
