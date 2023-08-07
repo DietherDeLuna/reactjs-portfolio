@@ -106,7 +106,7 @@ const About = () => {
                 </div>
                 {/*End Description*/}
 
-                <div className='flex flex-col gap-6 text-gray-600 text-[15px] md:text-[16px]'>
+                <div className='flex flex-col gap-6 text-gray-600 text-[11px] md:text-[16px]'>
 
                   <div>Diether D. De Luna</div>
                   <div>Augsut 03, 2000</div>
@@ -127,7 +127,7 @@ const About = () => {
                 whileInView={'show'}
                 viewport={{ once: true, amount: 0.7 }}
                 className='font-bold mt-8 mb-10 text-[#5050e6]'>
-                  I'm Diether and a Web Developer
+                  Im Diether and a Web Developer
                 </motion.h2>
 
                 <motion.div
