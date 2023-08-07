@@ -70,7 +70,7 @@ const About = () => {
               viewport={{ once: true, amount: 0.7 }}
               className='flex items-center justify-between w-[400px]'>
                 {/*Description*/}
-                <div className='flex flex-col gap-6'>
+                <div className='flex flex-col gap-3'>
                   
 
                   <div className='flex gap-4 items-center font-medium'>
