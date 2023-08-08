@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <div className='bg-[#EFF1F5] bg-cover bg-center h-[200px] grid place-items-center'>
+    <div className='bg-[#F5F7FB] bg-cover bg-center h-[200px] grid place-items-center'>
         
         <div className='text-center'>
 
