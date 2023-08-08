@@ -155,7 +155,7 @@ const About = () => {
                   </p>
                   <Link href='/contact'>
                     <button className='btn'>Hire me</button>
-              ``  </Link>
+                  </Link>
                 </motion.div>
 
               </div>
