@@ -185,6 +185,18 @@ const Navbar = ({toggleSidebar}) => {
                   ))}
                 </li>
 
+                  <li className='nav mb-4 text-sm uppercase'>
+                  {navProject.map(({ link, name}) => (
+                    <Link
+                      key={name}
+                      href={link}
+                      className={`${router.pathname === link ? 'navactive' : ''} `}
+                      >
+                        {name}
+                    </Link>
+                  ))}
+                </li>
+
                 <li className='nav mb-3 text-sm uppercase'>
                   {navContact.map(({ link, name}) => (
                     <Link
