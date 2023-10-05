@@ -54,7 +54,8 @@ const Navbar = ({toggleSidebar}) => {
 
         <div className='flex flex-col-1'>
           <Link href='/'>
-            <Image className='cursor-pointer' src='./images/dd-icon.png' alt='/' width='80' height='50'/>
+            <Image className='cursor-pointer' src={ddicon} alt='/' width='80' height='50'/>
+            
           </Link>
           <div className='flex flex-col items-center justify-center'>
             <Link href='/'>
