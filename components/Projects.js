@@ -12,9 +12,9 @@ import skill4 from './images/php-.png'
 import skill5 from './images/mysql-.png'
 import skill6 from './images/cs.png'
 
-import project1 from './images/youtube_project.jpg'
-import project2 from './images/pdao-web.jpg'
-import project3 from './images/pos-web.jpg'
+import project1 from './images/yt.JPG'
+import project2 from './images/pdao-web.JPG'
+import project3 from './images/pos-web.JPG'
 
 
 
