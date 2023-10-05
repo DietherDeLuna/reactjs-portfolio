@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { fadeIn } from './Variants.js'
-import project1 from './images/youtube_project.JPG'
+import project1 from './images/yt.jpg'
 import project2 from './images/pdao-web.jpg'
 import project3 from './images/pos-web.jpg'
 
